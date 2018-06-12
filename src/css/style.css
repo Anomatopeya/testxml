@@ -1,0 +1,11 @@
+ul, ol{
+	list-style: none;
+}
+.makeLi:before{
+	content: '[+]';
+	display: inline-block;
+	width: 20px;
+}
+.makeLi.openMake:before{
+	content: '[-]';
+}
