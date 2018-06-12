@@ -1,11 +1,3 @@
-<!-- <?php 
-$mysqli = new mysqli('localhost', 'root', '111111', 'testxml');
-if ($mysqli->connect_error) {
-    die('Connect Error (' . $mysqli->connect_errno . ') ' . $mysqli->connect_error);
-}
-$mysqli->set_charset('utf8');
-
-?> -->
 <?php 
    $host = 'localhost';
    $db   = 'testxml';
