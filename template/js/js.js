@@ -3,8 +3,7 @@ function loadModels($this) {
 	$makeID=$this.data('model');
 	$.ajax({
 		type: "POST",
-		url: "/src/view/modelsList.php",
-		data: {'make_id': $makeID},
+		url: "/models/"+$makeID,
 		success: function (data) {
 			$this.closest('li').append(data);
 		}
